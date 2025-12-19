@@ -1,16 +1,63 @@
-# React + Vite
+# Frontend Portfolio – Jorge René Bustos 👨‍💻
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio personal desarrollado con **React** para presentar proyectos frontend, habilidades técnicas y enlaces profesionales.
 
-Currently, two official plugins are available:
+🔗 **Deploy en vivo:**  
+https://portfolio-frontend-kappa-steel.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Tecnologías utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Git & GitHub
+- Vercel (Deploy)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📌 Contenido del portfolio
+
+- Presentación profesional como Frontend Developer Junior
+- Proyectos frontend destacados
+- Enlaces a demos en vivo
+- Enlaces a repositorios de GitHub
+- Información de contacto profesional
+
+---
+
+## 🧩 Proyectos destacados
+
+### 💈 El Barón Barbería
+
+Landing page comercial desarrollada con React para una barbería real.  
+🔗 Demo: https://el-baron-barberia.vercel.app/
+
+### 📊 Business Dashboard
+
+Dashboard frontend con componentes reutilizables y estructura modular.  
+🔗 Demo: https://business-dashboard-phi-ten.vercel.app/
+
+### ⚛️ React Frontend App
+
+Aplicación para practicar fundamentos de React.  
+🔗 Demo: https://react-frontend-app-tau.vercel.app/
+
+---
+
+## 🎯 Objetivo del proyecto
+
+Construir un portfolio simple, profesional y enfocado en recruiters, mostrando experiencia práctica en desarrollo frontend con React, buenas prácticas y proyectos deployados.
+
+---
+
+## 📬 Contacto
+
+- LinkedIn: https://www.linkedin.com/in/jorgerenebustos/
+- GitHub: https://github.com/JorgeReneBustos
+
+---
+
+© 2025 Jorge René Bustos
