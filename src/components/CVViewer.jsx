@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 
-export default function CVViewer({ src = '/Jorge_Bustos.pdf', height = 720 }) {
+export default function CVViewer({ src = '/Jorge_Rene_Bustos_Frontend_Developer_CV.pdf', height = 720 }) {
   const [available, setAvailable] = useState(null);
   const iframeRef = useRef(null);
 

@@ -1,6 +1,5 @@
 import React from 'react';
 import CVViewer from './CVViewer';
-import cvPdf from '../documents/Jorge_Rene_Bustos_Frontend_Developer_CV.pdf';
 
 const SkillBar = ({ label, value }) => (
   <div className="skillbar">
@@ -20,7 +19,7 @@ export default function Resume(){
       <div className="container resume-inner">
         <div style={{ gridColumn: '1 / -1', marginBottom: 24 }}>
           <h2>CURRÍCULUM VITAE</h2>
-          <CVViewer src={cvPdf} height={640} />
+          <CVViewer src="/Jorge_Rene_Bustos_Frontend_Developer_CV.pdf" height={640} />
         </div>
         <div className="col left">
           <h3>SOFTWARE SKILLS</h3>
