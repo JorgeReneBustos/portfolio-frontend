@@ -8,6 +8,36 @@
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      // Runtime error banner (temporary - helps debug production builds on Vercel)
+      window.addEventListener('error', function (e) {
+        try {
+          var banner = document.getElementById('__runtime_error_banner');
+          if (!banner) {
+            banner = document.createElement('div');
+            banner.id = '__runtime_error_banner';
+            banner.style.position = 'fixed';
+            banner.style.left = '12px';
+            banner.style.right = '12px';
+            banner.style.top = '12px';
+            banner.style.zIndex = 99999;
+            banner.style.background = 'rgba(220,40,40,0.95)';
+            banner.style.color = 'white';
+            banner.style.padding = '12px 16px';
+            banner.style.borderRadius = '8px';
+            banner.style.fontFamily = 'sans-serif';
+            banner.style.fontSize = '13px';
+            banner.style.boxShadow = '0 6px 20px rgba(0,0,0,0.5)';
+            document.body.appendChild(banner);
+          }
+          var msg = (e && e.message) ? e.message : String(e);
+          var src = e.filename || (e && e.error && e.error.stack) || '';
+          banner.innerText = 'Runtime error: ' + msg + (src ? ' — ' + src : '');
+        } catch (err) {
+          // ignore
+        }
+      }, true);
+    </script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
